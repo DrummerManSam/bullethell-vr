@@ -17,7 +17,7 @@ public class EnemyMovement : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        transform.position = new Vector3(Mathf.PingPong(Time.time * speed, 5), transform.position.y, transform.position.z);
+        transform.position = new Vector3(Mathf.PingPong(Time.time * speed, 15), transform.position.y, transform.position.z);
 		
 	}
 }
